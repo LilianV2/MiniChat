@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+body {
+  background: #374a49;
+  color: white;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+#form #username {
+  background: #ffffff;
+  border: none;
+  border-radius: 7px;
+  height: 4vh;
+  width: 12vw;
+  text-align: center;
+}
+#form #message {
+  min-width: 15 vw;
+  min-height: 10vh;
+  font-family: sans-serif;
+  border-radius: 7px;
+}
+#form #submitBtn {
+  width: 8vw;
+  height: 5vh;
+  background: rgba(83, 134, 134, 0.49);
+  border: none;
+  border-radius: 11px;
+  color: white;
+  font-weight: bold;
+}
+#form #submitBtn:hover {
+  background: white;
+  color: rgba(83, 134, 134, 0.49);
+  transform: scale(1.1);
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  background: rgba(83, 134, 134, 0.49);
+  width: 50vw;
+  height: 10vh;
+  border-radius: 11px;
+  box-shadow: 2px 2px 15px 5px rgba(137, 137, 137, 0.45);
+}
+
+/*# sourceMappingURL=style.css.map */
